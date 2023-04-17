@@ -10,4 +10,6 @@ public class KhjController {
     public String khj(Model model){
         return "khj/KHJ";
     }
+    @RequestMapping("/khj2")
+    public String khj2(Model model){ return "khj/KHJ2"; }
 }
